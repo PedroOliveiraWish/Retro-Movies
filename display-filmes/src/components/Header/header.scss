@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid rgba(255, 0, 255, 0.3);
+    background: rgba(10, 10, 30, 0.8);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.2);
+}
+
+.header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #00ffff; /* Neon ciano */
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    margin-bottom: .5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #ff66cc; /* Rosa neon */
+    text-shadow: 0 0 6px #ff66cc;
+    padding: 0 1.5rem;
+}

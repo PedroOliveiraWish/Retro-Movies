@@ -1,0 +1,90 @@
+
+.movie-card {
+    background: rgba(15, 15, 40, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.4), 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+/* 📸 IMAGEM DO FILME */
+.movie-imagem-group img {
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.movie-imagem-group img:hover {
+    transform: scale(1.05);
+    filter: brightness(0.8);
+}
+
+.movie-info-group {
+    padding: 1rem;
+    font-family: 'VT323', monospace;
+    color: #e0e0e0;
+}
+
+.movie-header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.movie-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffff; 
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    max-width: 200px;
+}
+
+.movie-date-vote {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #ff66cc; 
+}
+
+.movie-date {
+    color: #ff66cc;
+    text-shadow: 0 0 6px #ff66cc;
+}
+
+.movie-vote {
+    color: #ff66cc;
+    text-shadow: 0 0 6px #ff66cc;
+    font-weight: bold;
+}
+
+.movie-body-group {
+    font-size: 1rem;
+    color: #e0e0ff;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.movie-body-group:hover {
+    max-height: 100%;
+    transition: all .8s ease-in-out;
+}
+
+.movie-card:hover .movie-title {
+    text-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff, 0 0 35px #ff00ff;
+}
+
+.movie-card:hover .movie-body-group {
+    color: #ff33cc;
+}
