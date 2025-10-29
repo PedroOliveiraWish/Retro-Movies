@@ -7,11 +7,12 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "start": "node --loader ts-node/esm src/index.ts" 
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
+    "express": "^5.1.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
