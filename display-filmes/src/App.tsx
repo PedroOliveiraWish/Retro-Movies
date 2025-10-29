@@ -10,7 +10,7 @@ export default function App() {
 
     useEffect(() => {
         const fetchFilme = async () => {
-            const response = await fetch(`http://localhost:3001/api/filme`, {
+            const response = await fetch(`https://retro-movies.onrender.com/api/filme`, {
                 method: 'GET',
                 headers: {
                     accept: 'application/json',
